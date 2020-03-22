@@ -2,4 +2,5 @@
 <resources>
     <dimen name="button_height_normal">42dp</dimen>
     <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="padding_16dp"></dimen>
 </resources>

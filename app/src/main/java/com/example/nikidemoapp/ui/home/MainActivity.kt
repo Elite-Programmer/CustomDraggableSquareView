@@ -12,7 +12,6 @@ import com.example.nikidemoapp.model.SquareData
 import com.example.nikidemoapp.ui.squaresList.SquaresListActivity
 import io.paperdb.Paper
 import kotlinx.android.synthetic.main.activity_main.*
-import timber.log.Timber
 
 class MainActivity : AppCompatActivity(),
     CustomDrawerView.CustomDrawerViewListener {
@@ -77,7 +76,6 @@ class MainActivity : AppCompatActivity(),
 
     override fun onPause() {
         super.onPause()
-        Timber.e("Saving data")
         Paper.book().write(Constants.PaperKeys.KEY_SQUARE_DATA_LIST, customDrawerView.getAllSquareData())
     }
 

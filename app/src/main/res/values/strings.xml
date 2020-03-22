@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NikiDemoApp</string>
+    <string name="bounds_exceeding">Padding bounds exceed dimension</string>
+    <string name="increment_padding">Compress</string>
+    <string name="swap_color">Change Color</string>
+    <string name="decrement_padding">Enlarge</string>
+    <string name="view_list_data">View Data As List</string>
+    <string name="empty_list">No data found! Add squares to view their coordinates here.</string>
+    <string name="title_squares_list_activity">COORDINATES LIST</string>
+    <string name="title_home_activity">NIKI DEMO APP</string>
+</resources>
